@@ -1,0 +1,22 @@
+{
+  "name": "@m91michel/mm-helpers",
+  "version": "1.0.0",
+  "description": "A collection of useful helpers for my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m91michel/mm-helpers.git"
+  },
+  "keywords": [
+    "helpers"
+  ],
+  "author": "m91michel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m91michel/mm-helpers/issues"
+  },
+  "homepage": "https://github.com/m91michel/mm-helpers#readme"
+}
