@@ -1,12 +1,16 @@
 {
   "name": "@m91michel/mm-helpers",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "author": "m91michel",
   "license": "ISC",
   "description": "A collection of useful helpers for my projects",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/m91michel/mm-helpers.git"
