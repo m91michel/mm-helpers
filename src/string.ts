@@ -3,5 +3,6 @@ export const normalizeString = (subject: string) => {
       .toLowerCase()
       .replace(/\s+/g, "-") // Replace all whitespace with "-"
       .replace(/[^a-z0-9-]/g, "") // Remove any characters except alphanumeric and "-"
-      .replace(/-+/g, "-"); // Replace multiple "-" with a single "-"
+      .replace(/-+/g, "-") // Replace multiple "-" with a single "-"
+      .replace(/^-+|-+$/g, ""); // Strip all "-" at the beginning and the end of the result
 };

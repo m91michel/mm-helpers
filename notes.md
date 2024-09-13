@@ -8,3 +8,7 @@
 
 ## Tutorials
 - https://www.skovy.dev/blog/build-component-libraries-with-tsup-tailwind?seed=uma8lw
+
+
+## merge release
+- https://github.com/mikeal/merge-release
