@@ -1,6 +1,6 @@
 {
   "name": "@m91michel/mm-helpers",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "m91michel",
   "license": "ISC",
   "description": "A collection of useful helpers for my projects",
@@ -22,6 +22,10 @@
     "url": "https://github.com/m91michel/mm-helpers/issues"
   },
   "homepage": "https://github.com/m91michel/mm-helpers#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "build": "tsup ./src"
